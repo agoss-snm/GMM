@@ -1,2 +1,2 @@
 # GMM
-Proyect HTML, CSS, Real Proyect Coderhouse
+HTML, CSS, Real Proyect Coderhouse
