@@ -33,6 +33,8 @@ padding-top: 20px;
     background-size: cover;
     
   }
+
+
   @media (min-width: 375px) {
     #heading {
         width: 100%;
@@ -99,6 +101,10 @@ padding-top: 20px;
     .container p{
       margin-left: -10000px;
     }
+  }
+
+  #sec1 .gallery{
+    display:flex !important;
   }
 
   @media (min-width: 728px) {
