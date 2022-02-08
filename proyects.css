@@ -1,0 +1,796 @@
+/*_________________________________PROYECTOS______________________________________*/
+.container {
+    margin-left: 0px !important;
+    padding: auto;
+}
+
+#secondMenu{
+    box-shadow: 0px 0px 5px 1px black;
+}
+#navbartwo{
+padding-top: 20px;
+}
+#nav2link{
+    padding: 20px;
+    text-decoration:none !important;
+    color: black;
+}
+#nav2link:hover{
+  padding: 20px;
+  text-decoration:none !important;
+  color: rgb(90, 90, 90);
+}
+#cardTexto{
+    color: rgb(84, 170, 77) ;
+}
+#heading {
+    display: block;
+    width: 100%;
+    background: url('./src/Proyectos.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+  @media (min-width: 375px) {
+    #heading {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .p1{
+      margin-top: 120px !important;
+      color: white !important;
+    }
+    #heading2 .container h2{
+      color: rgb(255, 255, 255) !important;
+    }
+    #heading3 .container h2{
+      color: aliceblue !important;
+    }
+    #heading4 .container h2{
+      color: aliceblue !important;
+    }
+    #imgCardT{
+      width: 375px;
+    }
+    #sec1 .gallery{
+      display:none !important;
+    }
+    #heading3 {
+      width: 100%;
+      height: 380px;
+      background: url('./src/adrogue.png') no-repeat center center; 
+  }
+  #heading4 {
+    width: 100%;
+    height: 380px;
+    background: url('./src/BellaVista.png') no-repeat center center; 
+}
+
+  #headingSec {
+  width: 100%;
+  height:100px !important;
+  margin-top: 5px;
+}
+#cardheader1 {
+  background-color: rgb(112, 112, 112)!important;
+  color: rgb(255, 255, 255)!important;
+  }
+
+#cardheader2 {
+  background-color: rgb(60, 145, 52)  !important;
+  color: rgb(255, 255, 255)!important;
+  }
+  #cardheader3{
+    background-color: rgb(84, 170, 77) !important;
+    color: rgb(255, 255, 255)!important;
+}
+  }
+
+
+
+  @media (max-width: 768px) {
+    #heading {
+        width: 100%;
+        height: 280px;
+        padding: 0px 0;
+    }
+    .container p{
+      margin-left: -10000px;
+    }
+  }
+
+  @media (min-width: 728px) {
+    #heading {
+        width: 100%;
+        height: 210px;
+        padding: 0px 0;
+    }
+  
+  }
+  
+  @media (min-width: 900px) {
+    #heading {
+        width: 100%;
+        height: 300px;
+        padding: 0px 0;
+    }
+    #headingSec {
+      width: 100%;
+      height:300px !important;
+  
+  }
+}
+
+  @media (min-width: 1024px) {
+    #heading {
+        width: 100%;
+        height: 300px;
+        padding: 0px 0;
+    }
+    #heading button{
+      margin-left: 80px;
+    }
+  }
+
+  @media (min-width: 1224px) {
+    #heading {
+        width: 100%;
+        height: 400px;
+        padding: 0px 0;
+    }
+  }
+
+
+
+
+  
+  #heading h1 {
+    font-size: 40px;
+    line-height: 105px;
+    letter-spacing: -1px;
+    color: rgb(84, 170, 77) ;
+    text-align: left;
+  }
+  
+  #heading h4 {
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+
+  }
+
+  #btnsucces{
+    padding: 10px !important;
+    text-align: left! important;
+    color: rgb(92, 207, 81) ;
+    margin-left: 70px;
+
+  }
+  #btnsucces:hover{
+    color: rgb(255, 255, 255) ;
+
+  }
+
+  /*cards*/
+  
+
+a:visited {
+    color: #10135c;
+  }
+  
+ 
+  
+  h1 {
+    color: #10135c;
+  }
+  
+  h2 {
+    color: rgb(84, 170, 77) !important;
+  }
+  
+  h3 {
+    color: #10135c;
+  }
+  
+  .cards {
+    font-family: 'Manrope', sans-serif !important;
+    font-weight: 600;
+    display: flex;
+    max-width: 70em;
+    align-self: center;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  
+  .card {
+    margin: 0.5rem 0rem 0.5rem 0;
+    position: relative;
+    min-width: 10px;
+  }
+  
+  .card:last-child {
+    margin-right: 0;
+  }
+  
+  .card .text-wrapper {
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    text-shadow: 1px 1px #000;
+    padding: 0rem;
+    align-items: flex-end;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0);
+    max-width: 250px;
+    display: flex;
+    font-family: 'Manrope', sans-serif !important;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  
+  .image-wrapper {
+    flex: 40%;
+  }
+  
+  .text-wrapper  {
+    flex: 60%;
+    
+  }
+
+
+  .cards .text-wrapper:hover {
+    background-color:rgba(0, 128, 0, 0.274);
+  }
+
+  
+  
+  /*   */
+  
+  .cards {
+    
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  @media (min-width: 481px) {
+    .cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (min-width: 700px) {
+    .cards {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .cards {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .container-fluid{
+    display: grid;
+    place-items: center;
+}
+
+/*headering 2*/
+
+
+#heading2 {
+    display: block;
+    width: 100%;
+    height: 380px;
+    background: url('./src/proyectos\ Suipacha.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+  @media (min-width: 400px) {
+    #heading2 {
+        width: 100%;
+        height: 380px;
+    }
+    #heading2 p{
+      color: aliceblue;
+    }
+  
+    #btnsucces{
+      padding: 10px !important;
+      text-align: left! important;
+      color: rgb(255, 255, 255) ;
+      margin-left: 10px;
+  
+  }
+  
+  @media (min-width: 728px) {
+    #heading2 {
+        width: 100%;
+        height: 280px;
+    }
+    .container p{
+      margin-left: -1000px;
+    }
+    #btnsucces{
+      color: rgb(60, 145, 52) !important;
+      margin-left: 50px;
+  
+  }
+  }
+
+  @media (min-width: 968px) {
+    #heading2 {
+        width: 100%;
+        height: 280px;
+    }
+    .container p{
+      margin-left: -10000px;
+    }
+  }
+  @media (min-width: 1268px) {
+    #heading2 {
+        width: 100%;
+        height: 480px;
+    }
+    .container p{
+      margin-left: -10000px;
+    }
+  }
+
+
+
+
+  
+  #heading2 h1 {
+    font-size: 40px;
+    line-height: 105px;
+    letter-spacing: -1px;
+    color: green;
+    text-align: left;
+    font-family: 'Manrope', sans-serif !important;
+  }
+  
+
+  /**********************headering3*/
+  #heading3 {
+    display: block;
+    width: 100%;
+    height: 380px;
+    background: url('./src/adrogue.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 30px;
+  }
+
+
+  
+  @media (min-width: 728px) {
+    #heading3 {
+        width: 100%;
+        height: 280px;
+    }
+    .container p{
+      margin-left: -1000px;
+    }
+  }
+
+  @media (min-width: 968px) {
+    #heading3 {
+        width: 100%;
+        height: 280px;
+    }
+    .container p{
+      margin-left: -10000px;
+    }
+  }
+  @media (min-width: 1268px) {
+    #heading3 {
+        width: 100%;
+        height: 480px;
+    }
+    .container p{
+      margin-left: -10000px;
+    }
+  }
+
+  /*********************************************************/
+  #heading4 {
+    display: block;
+    width: 100%;
+    height: 380px;
+    background: url('./src/BellaVista.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+  @media (min-width: 400px) {
+    #heading4 {
+        width: 95%;
+        height: 380px;
+    }
+    #heading4  p{
+      margin-top: 240px !important;
+      color: aliceblue;
+    }
+    h1{
+      color: rgb(84, 170, 77) !important;
+    }
+    #headingSec h1{
+      font-size: 40px !important;
+    }
+  }
+  
+  @media (min-width: 728px) {
+    #heading4 {
+        width: 100%;
+        height: 280px;
+    }
+    .container p{
+      margin-left: -1000px;
+    }
+  }
+
+  @media (min-width: 968px) {
+    #heading4 {
+        width: 100%;
+        height: 280px;
+    }
+    .container p{
+      margin-left: -10000px;
+    }
+  }
+  @media (min-width: 1268px) {
+    #heading4 {
+        width: 100%;
+        height: 480px;
+    }
+    .container p{
+      margin-left: -10000px;
+    }
+  }
+
+/**/
+  #one {
+    height: 100%;
+    align-items: center;
+    margin-left: 50px;
+} 
+
+
+#sec1{
+    padding: 2em;
+}
+    
+#sec1 .gallery{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+  #sec1 .gallery figure{
+    margin: 0px;
+    overflow: hidden;
+    position: relative;
+    
+    transition: background-color .5s;
+  }
+    .gallery img{
+      width: 100% ;
+      opacity: .7;
+      transform: translate3d(0, -10px, 0) scale(1.12);
+      transition: all .5s;
+      background-color: rgb(255, 255, 255);
+      
+    }
+    
+    .gallery figcaption{
+      position: absolute;
+      padding: 1em 2em;
+      top: 0;
+      text-align: center;
+    }
+      .gallery figcaption h3{
+        font-weight: bold;
+        font-size: 2.2em;
+        display: inline-block;
+        padding: 2em .7em;
+        color: rgb(255, 255, 255) !important;
+        font-family: 'Manrope', sans-serif !important;
+        
+      }
+      
+     
+        figure figcaption .additional p{
+          font-size: 20px;
+          margin-top: 10px!important;
+          margin-bottom: 20px;
+          color: rgb(255, 255, 255);
+          font-family: 'Manrope', sans-serif !important;
+        }
+        
+        
+        
+      
+    
+    .additional{
+      opacity: 0;
+      transform: scale(1.3);
+      transition: all .5s;
+    }
+  
+  figure:hover{
+    background: rgb(91, 187, 72);
+  }
+  
+  figure:first-child{
+    margin-left: 0;
+  }
+  
+  figure:hover img{
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: .4;
+  }
+  
+  figure:hover .additional{
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+
+/*notas Informativas*/
+#headingSec {
+  font-family: 'Manrope', sans-serif !important;
+  display: block;
+  width: 100%;
+  background: url('./src/notas.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+@media (min-width: 600px) {
+  #headingSec {
+      width: 100%;
+      height: 280px;
+      padding: 0px 0;
+  }
+  .container p{
+    margin-left: -10000px;
+  }
+  #headingSec h1{
+    color: rgb(84, 170, 77) !important;
+  }
+  #cardheader1 h1{
+    margin-top: 0px;
+  }
+  #cardheader2 h1{
+    margin-top: 0px;
+  }
+  #cardheader3 h1{
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 728px) {
+  #headingSec {
+      width: 100%;
+      height: 210px;
+      padding: 0px 0;
+  }
+  #cardheader1 h1{
+    margin-top: 0px !important;
+    font-size: 15px !important;
+  }
+  #cardheader2 h1{
+    margin-top: 0px !important;
+    font-size: 15px !important;
+  }
+  #cardheader3 h1{
+    margin-top: 0px !important;
+    font-size: 15px !important;
+  }
+}
+
+@media (min-width: 900px) {
+  #headingSec {
+      width: 100%;
+      height: 300px;
+      padding: 0px 0;
+  }
+  #cardheader1 h1{
+    margin-top: 0px !important;
+  }
+  #cardheader2 h1{
+    margin-top: 0px !important;
+  }
+  #cardheader3 h1{
+    margin-top: 0px   !important;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  #headingSec {
+      width: 100%;
+      height: 300px;
+      padding: 0px 0;
+  }
+  #cardheader1 h1{
+    margin-top: 20px !important;
+  }
+  #cardheader2 h1{
+    margin-top: 20px !important;
+  }
+  #cardheader3 h1{
+    margin-top: 20px   !important;
+  }
+}
+
+@media (min-width: 1224px) {
+  #headingSec {
+      width: 100%;
+      height: 400px;
+      padding: 0px 0;
+  }
+  #headingSec .container h1{
+    margin-left: 150px !important;
+    padding-top: 100px;
+  }
+  #headingSec .container button{
+    margin-left: 150px !important;
+    margin-top: 50px;
+  }
+}
+
+
+/*tarjetas de notas*/
+
+#cardheader1 {
+  background-color: rgb(112, 112, 112);
+  color: rgb(255, 255, 255)!important;
+  height: 90px;
+}
+#cardheader2 {
+  background-color: rgb(60, 145, 52)  !important;
+  color: rgb(255, 255, 255)!important;
+  height: 90px;
+}
+#cardheader3{
+  background-color: rgb(84, 170, 77) !important;
+  color: rgb(255, 255, 255)!important;
+  height: 90px;
+  
+}
+
+#cardheader1 h1{
+  color: rgb(255, 255, 255)!important;
+  font-size: 20px !important;
+  text-align: center;
+  margin-top: 18px;
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: bold;
+}
+
+#listP li{
+  line-height: 2.5 !important; 
+}
+
+
+
+
+#nu {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+
+
+
+#cardheader2 h1{
+  color: rgb(255, 255, 255)!important;
+  font-size: 20px !important;
+  text-align: center;
+  margin-top: 18px;
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: bold;
+}
+#cardheader3 h1{
+  margin-top: 18px;
+  color: rgb(255, 255, 255)!important;
+  font-size: 20px !important;
+  text-align: center;
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: bold;
+}
+
+#CARROUSELUP{
+  align-items: center;
+}
+
+#rowC{
+  align-items: center;
+}
+#cardC{
+  border-radius: 15% !important;
+  overflow: hidden;
+}
+
+  }
+
+
+  #rowF{
+    align-items: center;
+    
+  }
+
+
+  /*footer*/
+
+  .iconosMedia a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.iconoWhatsApp, .iconoFacebook, .iconoInstagram {
+    color: gray;
+}
+
+.face, .wp, .insta  {
+   font-size: 25px;
+}
+
+.copyRight{
+  width: 100%;
+  height: 100px;
+}
+
+
+
+.textoCopyright {
+    color: white;
+}
+.footer {
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.9);
+}
+.copyRight {
+    background-color: rgb(84, 170, 77);
+}
+.logo {
+    height: 60px;
+    width: 60px;
+}
+.logoFooter {
+    height: 50px;
+    width: 50px;
+}
+.contactoFooter a {
+    text-decoration: none;
+    display: block;
+    color: black;
+
+}
