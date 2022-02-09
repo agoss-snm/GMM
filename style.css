@@ -230,12 +230,62 @@ body {
     #img3 li i{
         color: rgb(255, 255, 255);
     }
+    .footer {
+        background-color: white;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.9);
+        padding-block-end: 0 !important;
+        width: 100% !important;
+        position: absolute !important;
+        margin-top: 0px !important;
+      padding-top: 0px !important;
+    }
   }
+  
+  @media (min-width: 400px) {
+    #containerB {
+        margin-left: 60px !important;
+    }
+
+    .footer {
+        background-color: white;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.9);
+        padding-block-end:0 !important;
+        width: 100% !important;
+        position: absolute !important;
+        margin-top: 0px !important;
+      padding-top: 0px !important;
+      clear: both !important;
+    }
+  }
+  
   @media (min-width: 540px) {
     #containerB {
         margin-left: 60px !important;
     }
+
+    .footer {
+        background-color: white;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.9);
+        padding-block-end: 0 !important;
+        width: 100% !important;
+        position: absolute !important;
+        margin-top: 0px !important;
+      padding-top: 0px !important;
+    }
+  }
+
+
+    
   @media (min-width: 600px) {
+    .footer {
+        background-color: white;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.9);
+        padding-block-end: 0 !important;
+        width: 100% !important;
+        position: absolute !important;
+        margin-top: 0px !important;
+      padding-top: 0px !important;
+    }
   }
 
 
@@ -275,6 +325,15 @@ body {
     }
     #reduc{
         background-color: rgba(255, 255, 255, 0.842) !important;
+    }
+    .footer {
+        background-color: white;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.9);
+        padding-block-end: 0 !important;
+        width: 100% !important;
+        position: absolute !important;
+        margin-top: 0px !important;
+      padding-top: 0px !important;
     }
   }
   
@@ -334,7 +393,7 @@ body {
   }
 
 
-}
+
 
 
 /*servicios*/
