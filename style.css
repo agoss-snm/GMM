@@ -187,13 +187,13 @@ body {
 #containerContact{
     background-image: url('./src/background2.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 95%;
     align-items: center !important;
-    
+    display: auto;
 }
 
 #tarjetaP{
-    width: 380px;
+    width: 370px;
     box-shadow: 2px 2px 2px 1px rgba(73, 73, 73, 0.212);
     height: 400px;
     font-size: 18px;
@@ -201,6 +201,7 @@ body {
 }
 #containerB{
     padding: 10px;
+    width: 370px !important;
 }
 
 
@@ -235,14 +236,14 @@ body {
   
   @media (min-width: 400px) {
     #containerB {
-        margin-left: 60px !important;
+        margin-left: 0px !important;
     }
-
+  
   }
   
   @media (min-width: 540px) {
     #containerB {
-        margin-left: 60px !important;
+        margin-left: 0px !important;
     }
 
     .footer {
@@ -318,6 +319,12 @@ body {
     width: 100% !important;
     position: fixed !important;
     bottom: 0 !important; 
+  }
+
+  .FooterT {
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.9);
+    padding-block-end: 0 !important;
   }
   
   @media (min-width: 900px) {
