@@ -124,7 +124,15 @@ padding-top: 20px;
         height: 210px;
         padding: 0px 0;
     }
-  
+    #heading2 .container h2{
+      color: rgb(84, 170, 77) !important;
+    }
+    #heading3 .container h2{
+      color: rgb(84, 170, 77) !important;
+    }
+    #heading4 .container h2{
+      color: rgb(84, 170, 77) !important;
+    }
   }
   
   @media (min-width: 900px) {
