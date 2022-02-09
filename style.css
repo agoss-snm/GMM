@@ -389,7 +389,6 @@ body {
 
 .divContactos {
     height: 500px;
-    background-image: url(src/contacto.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
