@@ -91,8 +91,11 @@ padding-top: 20px;
 }
   }
 
-
-
+  @media (min-width: 400px) {
+    #sec1 .gallery{
+      display:none !important;
+    }
+  }
   @media (max-width: 768px) {
     #heading {
         width: 100%;
@@ -104,9 +107,6 @@ padding-top: 20px;
     }
   }
 
-  #sec1 .gallery{
-    display:flex !important;
-  }
 
   @media (min-width: 728px) {
     #heading {
