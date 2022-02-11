@@ -405,6 +405,7 @@ body {
 .h2Servicios1 {
     color: rgb(84, 170, 77);
     font-size: 50px;
+
 }
 
 .parrafoServicios {
@@ -418,29 +419,42 @@ body {
     
 }
 
-
+#contenido1{
+    display: grid;
+    grid-template-columns: 700px;
+}
 
 .divEficiencia {
-    height: 1080px;
-    background-image: url(src/Servicios/Eficienciaenergeticacompleto.png);
+    background-size: 100% auto;   
+    background-image: url(src/Servicios/Eficienciaenergeticacompleto1.png);
     background-repeat: no-repeat;
-    background-size: cover;
     display: block;
+    margin-bottom: 10px !important;
 }
+
+#contenido2{
+    display: grid;
+    grid-template-columns: 600px;
+}
+
 
 .divRenovables {
-    height: 1080px;
-    background-image: url(src/Servicios/1.png);
+    background-size: 100% auto !important;  
+    background-image: url(src/Servicios/1.png); 
     background-repeat: no-repeat;
     background-size: cover;
-
+    margin-bottom: 10px !important;
+    display: block;
+    
 }
 
+
 .divCapacitaciones {
-    height: 1280px;
+    background-size: 100% auto !important;   
     background-image: url(src/Servicios/Capacitacionescompleto.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 10 !important;
 }
 
 .divContactos {
@@ -470,3 +484,56 @@ body {
 .divContactos a {
     text-decoration: none;
 }
+
+
+
+
+/*Medias queris seccion informacion de servicios*/
+
+  /* Mobile*/
+  @media only screen and (max-width: 819px){
+    .textosServicios {
+        font-size: 4px;
+    }
+    .Card .texto{
+        display: none !important;
+    }
+    #cardsd{
+        display: none !important;
+    }
+    .h2Servicios1{
+        font-size: 30px;
+        padding-top: 0px;
+        margin-top: 0px;
+        display: contents;
+    }
+    }
+
+    @media only screen and (min-width: 800) and (max-width: 819px){
+        .textosServicios {
+            font-size: 4px;
+        }
+        .Card .texto{
+            display: none !important;
+        }
+        #cardsd{
+            display: none !important;
+        }
+        .h2Servicios1{
+            font-size: 30px;
+            padding-top: 0px;
+            margin-top: 0px;
+            display: contents;
+        }
+        #tabletno ul li{
+            display: none !important;
+        }
+        }
+
+  /* Desktop */
+  @media only screen and (min-width: 1113px) and (max-width: 1567px){
+      .textosServicios {
+          font-size: 15px;
+      }
+    
+  }
